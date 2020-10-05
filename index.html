@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="editor.css">
+    <title>Code Editor By Towfiq</title>
+    <script src="app.js"> </script>
+</head>
+<body>
+    <h2> WELCOME TO LIVE CODE EDITOR</h2>
+      
+     <div class="outer">
+         <div class="left_section">
+ 
+                                                    <!-- HTML SECTION -->
+            <div class="upper_section">
+        <!-- Header -->       
+                   <div class="Dot">
+                    &nbsp; &nbsp; &nbsp;  <span class="dot1"></span>&nbsp; &nbsp;   &nbsp;
+                     <span class="dot2"></span> &nbsp; &nbsp;  &nbsp;
+                     <span class="dot3"></span>  <span class="html"> HTML</span>
+                   </div>
+                   <!-- Header End -->
+                   <div class="editor" id="htmleditor" contenteditable="true" onkeyup="showPreview()"></div>
+            </div>
+                                                  
+                                                        <!-- CSS Section -->
+
+            <div class="lower_section">
+                <div class="lower_left">
+            <!-- Header -->  
+                    <div class="Dot">
+                         &nbsp; &nbsp;  <span class="dot1"></span>&nbsp; &nbsp;&nbsp;
+                         <span class="dot2"></span> &nbsp; &nbsp;  &nbsp;
+                         <span class="dot3"></span>  <span class="html"> CSS</span>
+                       </div>
+                <!-- Header End -->
+                   <div class="editor" id="csseditor" contenteditable="true" onkeyup="showPreview()"></div>
+
+                </div>
+
+                                                            <!-- Js Section -->
+                <div class="lower_right">
+
+            <!-- Header -->    
+                    <div class="Dot">
+                        &nbsp; &nbsp;  <span class="dot1"></span>&nbsp; &nbsp; &nbsp;
+                         <span class="dot2"></span> &nbsp; &nbsp;  &nbsp;
+                         <span class="dot3"></span>  <span class="html" style="padding-left: 30%;"> JAVASCRIPT</span>
+                       </div>
+            <!-- Header End -->
+                 <div class="editor" id="jseditor" contenteditable="true" onkeyup="showPreview()"></div>
+                </div>
+
+            </div>
+
+         </div>
+
+
+
+
+
+ <!-- Output Section -->
+
+         <div class="right_section">
+            <div class="Dot" style="z-index: 1000;">
+                &nbsp; &nbsp; &nbsp;  <span class="dot1"></span>&nbsp; &nbsp;   &nbsp;
+                 <span class="dot2"></span> &nbsp; &nbsp;  &nbsp;
+                 <span class="dot3"></span>  <span class="html"> OUTPUT</span>
+               </div>
+            </div>
+             
+            <iframe id="preview" contenteditable="true" />
+     </div> 
+
+
+
+                <!-- Script Section -->
+
+</body>
+</html>

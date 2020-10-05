@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    background: rgb(17, 155, 247);
+    color:#fff;
+    text-align: center;
+    padding: 10px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.outer{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin-left:1px ;
+    
+}
+.left_section, 
+.right_section{
+  float: left;
+  width:49.8%;
+  /* border: 1px solid rgb(255, 6, 6); */
+  height: 100%;
+}
+.left_section{
+    border-right: 4px solid rgb(255, 6, 6);
+}
+
+.upper_section, 
+ .lower_section{
+    height: 45%;
+    width: 100%;
+    /* border: 1px solid rgb(8, 8, 8); */
+}
+
+.lower_left, 
+.lower_right{
+  float: left;
+  width: 49.8%;
+  height: 108%;
+  /* border-right: 1px solid rgb(30, 255, 0); */
+  
+}
+.lower_left{
+    border-right: 1px solid rgb(30, 255, 0);
+}
+#preview{
+  width: 49.5vw;
+  height: 100vh;
+  float: right;
+  margin-top: -53%;
+  border: none;
+}
+
+
+
+/* Dotsss R G B */
+.Dot{
+    background: #000; 
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 4vh;
+    width: 100%;
+    z-index: 20;
+    
+}
+.dot1::before{
+  content: '';
+    position: absolute;
+    height:1rem;
+    width: 1rem;
+  background: rgb(255, 0, 0);
+  border-radius: 30px;
+  margin-top:-8px;
+}
+.dot2::before{
+  content: '';
+    position: absolute;
+    height:1rem;
+    width: 1rem;
+  background: rgb(238, 255, 0);
+  border-radius: 30px;
+  margin-top:-8px;
+}
+.dot3::before{
+  content: '';
+    position: absolute;
+    height:1rem;
+    width: 1rem;
+  background: rgb(0, 255, 85);
+  border-radius: 30px;
+  margin-top:-8px; 
+}
+
+
+.html{
+    color: #fff;
+    padding-left: 36%;
+}
+
+
+/* editor */
+.editor{
+    width: 100%;
+    height: calc(100% - 30px);
+    overflow: auto ;
+}
