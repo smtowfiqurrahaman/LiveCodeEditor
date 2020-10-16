@@ -46,13 +46,13 @@ body{
   
 }
 .lower_left{
-    border-right: 1px solid rgb(30, 255, 0);
+    border-right:2px solid #2d6187;
 }
 #preview{
   width: 49.5vw;
   height: 100vh;
   float: right;
-  margin-top: -53%;
+  margin-top: -69%;
   border: none;
 }
 
@@ -62,7 +62,7 @@ body{
 .Dot{
     background: #000; 
     display: flex;
-    justify-content: right;
+    justify-content: left;
     align-items: center;
     height: 4vh;
     width: 100%;
